@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#478ac9">
@@ -6,7 +9,69 @@
     <meta property="og:description" content="A hall for all the vrchatians.">
     <title>Hall Of VRChatians</title>
     <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js" defer=""></script>
+    <style>
+        /* Inline styles for simplicity; move to styles.css for production */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .discord-icon img {
+            width: 40px;
+            height: auto;
+        }
+
+        .rgb-effect {
+            color: #ff007f;
+            /* Add your RGB effect styles here */
+        }
+
+        .user-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .user-list li {
+            padding: 8px 0;
+        }
+
+        #searchInput {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .dev-tag {
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        // JavaScript for search functionality
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('searchInput');
+            const userList = document.getElementById('userList');
+
+            searchInput.addEventListener('input', function () {
+                const query = searchInput.value.toLowerCase();
+                const items = userList.getElementsByTagName('li');
+
+                for (let i = 0; i < items.length; i++) {
+                    const item = items[i];
+                    const text = item.textContent.toLowerCase();
+                    item.style.display = text.includes(query) ? '' : 'none';
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -15,8 +80,13 @@
             <img src="discord-logo-discord-icon-transparent-free-png.png" alt="Discord">
         </a>
         <h1 class="rgb-effect">OLD-GENS</h1>
+        
+        <!-- Search Input -->
+        <input type="text" id="searchInput" placeholder="Search users...">
+
+        <!-- User List -->
         <div id="user-list" class="user-list">
-            <ul id="user-list">
+            <ul id="userList">
                 <li>Salute</li>
                 <li>Vamp</li>
                 <li>Zilla</li>
@@ -122,6 +192,13 @@
                 <li>Grim Reaper05</li>
                 <li>dakota</li>
                 <li>frailひ</li>
+                <li>Dutboot</li>
+                <li>Future</li>
+                <li>daddyhdk</li>
+                <li>Toki</li>
+                <li>AirboiK</li>
+                <li>Necrophile</li>
+                <li>Subject-1800</li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -131,13 +208,26 @@
                 <li></li>
                 <li></li>
                 <li></li>
-                <li class="rgb-effect"> Credits: salute, Vamp</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="rgb-effect">Credits: salute, Vamp</li>
                 <li></li>
             </ul>
-
         </div>
     </div>
     <div class="dev-tag">.gg/skeetvrc</div>
+</body>
 
-
-</body></html>
+</html>
