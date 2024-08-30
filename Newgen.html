@@ -13,69 +13,6 @@
 "icon-1.png"
             type="image/x-icon"
         />
-		    <style>
-        /* Inline styles for simplicity; move to styles.css for production */
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            padding: 20px;
-        }
-
-        .discord-icon img {
-            width: 40px;
-            height: auto;
-        }
-
-        .rgb-effect {
-            color: #ff007f;
-            /* Add your RGB effect styles here */
-        }
-
-        .user-list {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .user-list li {
-            padding: 8px 0;
-        }
-
-        #searchInput {
-            padding: 10px;
-            font-size: 16px;
-            margin-bottom: 20px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        .dev-tag {
-            text-align: center;
-            font-size: 14px;
-            color: #888;
-            margin-top: 20px;
-        }
-    </style>
-    <script>
-        // JavaScript for search functionality
-        document.addEventListener('DOMContentLoaded', function () {
-            const searchInput = document.getElementById('searchInput');
-            const userList = document.getElementById('userList');
-
-            searchInput.addEventListener('input', function () {
-                const query = searchInput.value.toLowerCase();
-                const items = userList.getElementsByTagName('li');
-
-                for (let i = 0; i < items.length; i++) {
-                    const item = items[i];
-                    const text = item.textContent.toLowerCase();
-                    item.style.display = text.includes(query) ? '' : 'none';
-                }
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -84,9 +21,6 @@
             <img src="discord-logo-discord-icon-transparent-free-png.png" alt="Discord">
         </a>
         <h1 class="rgb-effect">NEW-GENS</h1>
-		
-		 <input type="text" id="searchInput" placeholder="Search users...">
-		 
         <div id="user-list" class="user-list">
             <ul id="user-list">
 			
