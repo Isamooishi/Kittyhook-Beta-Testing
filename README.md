@@ -1,1 +1,3 @@
-THIS IS THE BASE TO KITTYHOOK.CC WE DO NOT ALLOW USERS TO COPY OUR WEBSITE, IF YOU HAVE CAME ACROSS THIS LEAVE PLEASE.
+Base Kittyhook Site / Test site
+This is where we test our website:D look at you surfing the web
+You can get our source through a website ripper so dont think you found something lmao.

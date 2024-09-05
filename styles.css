@@ -3,27 +3,22 @@
         color: lawngreen;
     }
     20% {
-        color: white;
+        color: pink;
     }
     40% {
-        color: white;
+        color: purple;
     }
     60% {
         color: white;
     }
     80% {
-        color: white;
+        color: blue;
     }
     100% {
-        color: white;
+        color: red;
     }
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
-}
 
 .container {
     display: flex;
@@ -31,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('https://cdn.discordapp.com/attachments/1278702304375079014/1280560114410979399/download_1.gif?ex=66d8860a&is=66d7348a&hm=8269185586d01cef7e8bbef655e2ea27c9bfcd19a358b26dd7e0086fcbcaf39f&') no-repeat center center/cover; /*!!!!!!!!!CHANGE THIS FOR YOUR BACKGROUND!!!!!!!!*/
+    background: url('https://files.catbox.moe/fobu1w.gif') no-repeat center center/cover; /*!!!!!!!!!CHANGE THIS FOR YOUR BACKGROUND!!!!!!!!*/
     text-align: center;
 }
 
@@ -127,7 +122,7 @@ body {
 
 
 a { /*base color*/
-    color: #999999;
+    color: #ffffff;
     text-decoration: none;
 }
 b { /*alternative font options*/
@@ -135,8 +130,32 @@ b { /*alternative font options*/
    font-size: 50px;
     font-weight: bold;
 	word-spacing: 10px;
-a:hover { /*Changes color when hovered over*/
-    color:#ffffff; 
-    text-decoration:none; 
-    cursor:pointer;  
 }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #600079;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #33ff00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #e100ff;
+    color: rgb(0, 255, 13);
+  }
+  
+  .topnav a.active {
+    background-color: #c000d1;
+    color: rgb(0, 255, 64);
+  }

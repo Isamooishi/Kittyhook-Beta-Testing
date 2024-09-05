@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Kittyhook | VRCHub">
-    <meta property="og:description" content="VRCHub app | Kittyhook, A hall for all the vrchatians.">
+    <meta property="og:description" content="VRCHub app | Kittyhook, The best source/hub of info for VRChat!">
     <title>Kittyhook | VRCHub </title>
     <link rel="stylesheet" href="./styles.css"> <!--Meta and titles-->
     <script src="./script.js" defer=""></script>
